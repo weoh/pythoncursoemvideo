@@ -1,0 +1,7 @@
+a = input('\033[7;31;45m digite algo:\033[m ')
+print(f'\033[7;31;45m é numerico?\033[m', {a.isnumeric()})
+print(f'\033[7;31;45m é alfabeto?\033[m', {a.isalpha()})
+print(f'\033[7;31;45m é alfanumerico?\033[m', {a.isalnum()})
+print(f'\033[7;31;45m esta em letras maisculas?\033[m', {a.isupper()})
+print(f'\033[7;31;45m esta em letras minusculas?\033[m', {a.islower()})
+print(f'\033[7;31;45m esta capitalizada?\033[m', {a.istitle()})
